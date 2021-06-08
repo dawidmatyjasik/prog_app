@@ -11,6 +11,7 @@ body{
     grid-template-rows: 15fr 5fr 20fr 55fr 1px 5fr;
     background-color: #2F3336;
     font-family: 'Lato', sans-serif;
+    overflow: hidden;
 }
 .header{
     display: grid;
@@ -95,7 +96,8 @@ body{
 
 }
 .main__img{
-    width: 100%;
+    max-width: 400px;
+    width: 40%;
     object-fit: contain;
     flex-basis: 40%;
 }
